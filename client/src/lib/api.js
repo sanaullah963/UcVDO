@@ -1,6 +1,8 @@
 // src/lib/api.js
 
-export const baseURL = 'http://localhost:5000/api';
+// export const baseURL = 'http://localhost:5000/api';
+export const baseURL = 'https://uc-vdo-server.vercel.app/api';
+// /api
 
 export const fetchTasks = async () => {
   const res = await fetch(`${baseURL}/tasks`);
