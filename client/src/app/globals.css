@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* Optional: You can also convert to Tailwind utility classes directly */
+.btn-outline {
+  @apply border px-3 py-1 rounded hover:bg-gray-100;
+}
+.btn-blue {
+  @apply bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600;
+}
+.btn-yellow {
+  @apply bg-yellow-500 text-white px-3 py-1 rounded hover:bg-yellow-600;
+}
+.btn-green {
+  @apply bg-green-600 text-white px-3 py-1 rounded hover:bg-green-700;
+}
+
+/* added task */
+
+.input {
+  @apply border border-gray-300 rounded px-3 py-1 w-full;
+}
+.btn-outline {
+  @apply border px-2 py-1 rounded hover:bg-gray-100 text-sm;
+}
+.btn-blue {
+  @apply bg-blue-600 text-white px-4 py-1 rounded hover:bg-blue-700;
+}
